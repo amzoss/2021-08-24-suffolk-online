@@ -8,6 +8,8 @@ permalink: /sql/
 ---
 {% for slide in site.sql %}
 <section data-markdown>
+  <textarea data-template>
     {{ slide.content }}
+  </textarea>
 </section>
 {% endfor %}
